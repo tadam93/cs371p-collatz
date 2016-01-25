@@ -1,0 +1,4 @@
+language: cpp
+compilers: 
+  - gcc
+script: "python3 TestCollatz.py"
