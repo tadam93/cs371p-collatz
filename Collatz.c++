@@ -3,7 +3,10 @@
 // Copyright (C) 2016
 // Glenn P. Downing
 // ----------------------------
-
+// Length estimate  15 hours
+// Dates:
+//      Jan 27 - 1 hour
+//      Feb 1 - 3 hours
 // --------
 // includes
 // --------
