@@ -145,47 +145,6 @@ TEST(CollatzFixture, cycle_4){
 }
 
 // -----
-// collatz_range
-// -----
-TEST(CollatzFixture, range_1){
-    const int w = collatz_range(1, 1);
-    ASSERT_EQ(w, 1);
-}
-
-TEST(CollatzFixture, range_2){
-    const int w = collatz_range(3, 3);
-    ASSERT_EQ(w, 8);
-}
-
-TEST(CollatzFixture, range_3){
-    const int w = collatz_range(1, 1000);
-    ASSERT_EQ(w, 179);
-}
-
-TEST(CollatzFixture, range_4){
-    const int w = collatz_range(1, 999999);
-    ASSERT_EQ(w, 525);
-}
-
-// -----
-// collatz_cache
-// -----
-TEST(CollatzFixture, cache_1){
-    const int w = collatz_cache(1, 1000);
-    ASSERT_EQ(w, 179);
-}
-
-TEST(CollatzFixture, cache_2){
-    const int w = collatz_cache(1, 2000);
-    ASSERT_EQ(w, 182);
-}
-
-TEST(CollatzFixture, cache_3){
-    const int w = collatz_cache(999999, 10000);
-    ASSERT_EQ(w, 525);
-}
-
-// -----
 // solve
 // -----
 

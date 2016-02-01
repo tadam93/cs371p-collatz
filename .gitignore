@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 collatz-tests/*
 TestGen.c==
 testgen
+=======
+TestGen.c++
+testgen 
+>>>>>>> dev
