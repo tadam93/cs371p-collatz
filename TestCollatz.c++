@@ -152,21 +152,21 @@ TEST(CollatzFixture, solve_1) {
     istringstream r("1 10\n100 200\n201 210\n900 1000\n");
     ostringstream w;
     collatz_solve(r, w);
-    ASSERT_EQ("1 10 1\n100 200 1\n201 210 1\n900 1000 1\n", w.str());
+    ASSERT_EQ("1 10 20\n100 200 125\n201 210 89\n900 1000 174\n", w.str());
 }
 
 TEST(CollatzFixture, solve_2) {
     istringstream r("1 1\n2 2\n");
     ostringstream w;
     collatz_solve(r, w);
-    ASSERT_EQ("1 1 1\n 2 2 1\n", w.str());
+    ASSERT_EQ("1 1 1\n2 2 2\n", w.str());
 }
 
 TEST(CollatzFixture, solve_3) { 
     istringstream r("10 1\n100 10");
     ostringstream w;
     collatz_solve(r, w);
-    ASSERT_EQ("1 10 20\n100 10 119\n", w.str());
+    ASSERT_EQ("10 1 20\n100 10 119\n", w.str());
 }
 /*
 % g++ -fprofile-arcs -ftest-coverage -pedantic -std=c++11 -Wall Collatz.c++ TestCollatz.c++ -o TestCollatz -lgtest -lgtest_main -lpthread

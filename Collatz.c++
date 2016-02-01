@@ -49,12 +49,13 @@ int collatz_eval (int i, int j) {
         j = temp;
     }
     int max_cycle = 1;
-    while(i >= j){
+    while(i <= j){
+        //cout << "I: " << i << endl;
         int curr_cycle = collatz_cycle_length(i);
         if(curr_cycle > max_cycle){
             max_cycle = curr_cycle;
         }
-        i--;
+        i++;
     }
     assert (max_cycle > 0);
     return max_cycle;
@@ -73,10 +74,11 @@ int collatz_cycle_length(int i){
     assert(i < 1000000);
     int count = 1;
     while (i > 1){
-        if ((i % 2) == 0)
+        if ((i % 2) == 0){
             i = (int)(i / 2);
-        else
+        }else{
             i = (3 * i) + 1;
+        }
         count++;
     }
     assert(count > 0);
