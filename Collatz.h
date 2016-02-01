@@ -39,6 +39,17 @@ pair<int, int> collatz_read (const string& s);
  */
 int collatz_eval (int i, int j);
 
+// ------------
+// collatz_cycle_length
+// ------------
+
+/**
+ * @param i the number to find a cycle length on
+ * @return the cycle length
+ */
+int collatz_cycle_length (int i);
+
+
 // -------------
 // collatz_print
 // -------------
