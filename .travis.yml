@@ -1,9 +1,9 @@
 language: cpp
-compilers: 
-  - gcc
 before_install:
-	- sudo apt-get update
-	- sudo apt-get install g++-4.8
-	- sudo apt-get install gcov-4.8
-	- sudo apt-get install valgrind
+  - sudo apt-get update
+  - sudo apt-get install g++-4.8
+  - sudo apt-get install gcov-4.8
+  - sudo apt-get install valgrind
+compilers: 
+  - g++
 script: "make test"
