@@ -7,7 +7,7 @@
 #ifndef Collatz_h
 #define Collatz_h
 
-// --------
+#define USING_CACHE
 // includes
 // --------
 
@@ -38,6 +38,29 @@ pair<int, int> collatz_read (const string& s);
  * @return the max cycle length of the range [i, j]
  */
 int collatz_eval (int i, int j);
+
+// ------------
+// collatz_range
+// ------------
+/**
+ * @param i the beginning of the range, inclusive
+ * @param j the end       of the range, inclusive
+ * @return the max cycle length of the range [i, j]
+ */
+int collatz_range (int i, int j);
+
+
+// ------------
+// collatz_cache
+// ------------
+
+/**
+ * @param i the beginning of the range, inclusive
+ * @param j the end       of the range, inclusive
+ * @return the max cycle length of the range [i, j]
+ */
+int collatz_cache (int i, int j);
+
 
 // ------------
 // collatz_cycle_length
