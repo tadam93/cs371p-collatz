@@ -1,0 +1,113 @@
+commit 5578cf08af5c4fb9623f180ab77f1b1634d7657e
+Author: Trevor Adam <trevor.adam93@gmail.com>
+Date:   Thu Feb 4 12:01:23 2016 -0600
+
+    Created Sphere Collatz from runcollatz and collatz
+
+commit f81def42bf7abd2142e674cf69857126a80706f8
+Author: Trevor Adam <trevor.adam93@gmail.com>
+Date:   Mon Feb 1 16:38:40 2016 -0600
+
+    Created a meta cache to speed up run time
+
+commit c6c8780852c80e0f2df417c85cc63ec868926298
+Author: Trevor Adam <trevor.adam93@gmail.com>
+Date:   Mon Feb 1 15:31:26 2016 -0600
+
+    Added files needed for travis build
+
+commit 3a6faca30b61d0d5581dbeea3ef3f46fdfa2789d
+Author: Trevor Adam <trevor.adam93@gmail.com>
+Date:   Mon Feb 1 15:30:03 2016 -0600
+
+    Added gitignore file
+
+commit b09f1019fe23f5c3fdb00f71fc80e3eb9d6c53de
+Author: Trevor Adam <trevor.adam93@gmail.com>
+Date:   Mon Feb 1 15:28:35 2016 -0600
+
+    Removed files that shouldn't be there
+
+commit 81535878625d272e1ea68156ec2f8b61e8204a11
+Author: Trevor Adam <trevor.adam93@gmail.com>
+Date:   Mon Feb 1 13:44:21 2016 -0600
+
+    Cleaned up test files
+
+commit 71a0f135f42f5da065ed1321570b3fc6253e2df1
+Author: Trevor Adam <trevor.adam93@gmail.com>
+Date:   Mon Feb 1 13:43:46 2016 -0600
+
+    Fixed RunCollatz.out
+
+commit a9df6c0d139627966e681d3075369fcc1589cefc
+Author: Trevor Adam <trevor.adam93@gmail.com>
+Date:   Mon Feb 1 13:40:34 2016 -0600
+
+    Implemented a basic collatz_eval that passes all unit tests I wrote
+
+commit 906f7b8a6d6f3c56f852b89b3c1c1e309258aa01
+Author: Trevor Adam <trevor.adam93@gmail.com>
+Date:   Mon Feb 1 13:36:20 2016 -0600
+
+    Added collatz_cycle_length for testability
+
+commit 9a80fb9c1baf5739c7f35eade7cfbb11800f0b54
+Author: Trevor Adam <trevor.adam93@gmail.com>
+Date:   Mon Feb 1 12:54:56 2016 -0600
+
+    Fixed given unit tests and added more to cover corner cases
+
+commit 8f676d0bf7c7780723cf7e7a8eb713238677798c
+Author: Trevor Adam <trevor.adam93@gmail.com>
+Date:   Mon Feb 1 12:24:09 2016 -0600
+
+    Added files to pass  make check
+
+commit 981e92fc71581a76dd4270757da30c77f573a762
+Author: Trevor Adam <trevor.adam93@gmail.com>
+Date:   Mon Feb 1 12:20:53 2016 -0600
+
+    Used public repo travis file
+
+commit 270ad8a5be38d0ef37a843eb9d3404e6d22e4c91
+Author: Trevor Adam <trevor.adam93@gmail.com>
+Date:   Mon Feb 1 12:16:41 2016 -0600
+
+    Removed compilers and tabs from travis file
+
+commit 6cfa462d80d81b889ef75ad826574a096a4df1ac
+Author: Trevor Adam <trevor.adam93@gmail.com>
+Date:   Mon Feb 1 12:14:50 2016 -0600
+
+    Added dependency installation to travis file
+
+commit e19a57b406809a8232d202f34f43ee12625c2611
+Author: Trevor Adam <trevor.adam93@gmail.com>
+Date:   Mon Feb 1 12:12:56 2016 -0600
+
+    Added dependency installation to travis file
+
+commit 03705e4106a7760e0538a84a401bd616f1fdb593
+Author: Trevor Adam <trevor.adam93@gmail.com>
+Date:   Mon Feb 1 12:06:45 2016 -0600
+
+    Fixed travis.yml file
+
+commit c01f8d29d9f1a661407ce4c955de1aad544cfc0f
+Author: Trevor Adam <trevor.adam93@gmail.com>
+Date:   Mon Feb 1 12:05:15 2016 -0600
+
+    Clone public repo over to private repo. Tested
+
+commit 341250c23e6c674ad152b6b51f75977648ae5c9b
+Author: tadam93 <trevor.adam93@gmail.com>
+Date:   Mon Jan 25 17:06:14 2016 -0600
+
+    Initial commit
+
+commit 879f3532a3d1e733def44b22810462afe16732b7
+Author: tadam93 <gophres@gmail.com>
+Date:   Mon Jan 25 15:17:02 2016 -0600
+
+    Initial commit
