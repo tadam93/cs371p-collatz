@@ -158,7 +158,7 @@ TEST(CollatzFixture, range_2){
 }
 
 TEST(CollatzFixture, range_3){
-    const int w = collatz_range(1, 1000);
+    const int w = collatz_range(1000, 1);
     ASSERT_EQ(w, 179);
 }
 
